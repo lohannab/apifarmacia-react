@@ -1,4 +1,3 @@
-import { GraduationCap } from "lucide-react";
 export function ProjetoEducacional() {
   return (
     <section className=" bg-[#F7F4EF] px-6 py-10 md:px-10 md:py-14 ">
