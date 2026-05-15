@@ -11,13 +11,17 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="min-h-[80vh]">
+        <div className="min-h-screen bg-linear-to-br from-[#f4f7f2] via-[#eef7f4] to-[#eef4ff]">
+          {" "}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/categorias" element={<ListaCategorias />} />
             <Route path="/cadastrarcategoria" element={<FormCategoria />} />
             <Route path="/editarcategoria/:id" element={<FormCategoria />} />
-            <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} />
+            <Route
+              path="/deletarcategoria/:id"
+              element={<DeletarCategoria />}
+            />
           </Routes>
         </div>
 
