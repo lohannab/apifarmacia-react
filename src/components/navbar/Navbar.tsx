@@ -14,11 +14,11 @@ function Navbar() {
 
           <Link to="/">Home</Link>
 
-          <Link to="">
+          <Link to="/categorias">
             Categorias
           </Link>
 
-          <Link to="">
+          <Link to="/cadastrarcategoria">
             Cadastrar Categoria
           </Link>
 
