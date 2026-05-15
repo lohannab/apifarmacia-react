@@ -1,11 +1,14 @@
-# 💊 Pharma Cia.
-Projeto educacional desenvolvido para gerenciamento de categorias farmacêuticas durante a formação Full Stack JavaScript da Generation Brasil.
+# 💊 Pharma Cia
+
+Sistema web desenvolvido para gerenciamento de categorias farmacêuticas.
+
+Projeto educacional criado durante a formação Full Stack JavaScript da Generation Brasil.
 
 ---
 
 # ✨ Sobre o Projeto
 
-O Pharma Cia foi desenvolvidoxperiência moderna, intuitiva e visualmente diferenciada para sistemas internos de gestão.
+O Pharma Cia foi desenvolvido com foco em uma experiência moderna, intuitiva e visualmente diferenciada para sistemas internos de gestão.
 
 A proposta do projeto foi transformar uma aplicação CRUD tradicional em uma interface mais sofisticada, fluida e agradável visualmente, utilizando conceitos de UI contemporânea, formas orgânicas, glassmorphism e uma identidade inspirada em health-techs modernas.
 
