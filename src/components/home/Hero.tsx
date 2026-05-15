@@ -12,10 +12,7 @@ export function Hero() {
           
         <div className="max-w-4xl">
             
-          <span className=" inline-block text-[#165B33] bg-[#C9F0D8] px-5 py-2 rounded-full text-xs font-black uppercase tracking-[0.2em] mb-8 ">
-              
-            Vitalis System  
-          </span>  
+           
           <h1 className=" text-[4rem] md:text-[7rem] leading-[0.9] tracking-tighter font-black text-[#111111] ">
               
             Organize. <br /> Cuide. <br /> Simplifique.  
