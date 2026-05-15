@@ -1,10 +1,16 @@
+import ListaCategorias from "../../components/categorias/listacategorias/ListaCategorias";
+import { FeatureGrid } from "../../components/home/FeatureGrid";
+import { Hero } from "../../components/home/Hero"; // ou o caminho que você definiu
+import { ProjetoEducacional } from "../../components/home/ProjetoEducacional";
+
 function Home() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-5xl font-bold">
-        Sistema da Farmácia
-      </h1>
-    </div>
+    <>
+      <Hero />
+      <FeatureGrid />
+      <ListaCategorias />
+      <ProjetoEducacional />
+    </>
   );
 }
 
