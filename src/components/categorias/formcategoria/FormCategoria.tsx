@@ -96,8 +96,8 @@ function FormCategoria() {
         <div className=" relative overflow-hidden bg-[#F36C4F] px-8 py-20 md:px-14 md:py-24 mb-10 rounded-[40px] ">
           {" "}
           {/* FORMAS */}{" "}
-          <div className=" absolute top-[-70px] right-[-60px] w-[240px] h-[240px] rounded-full bg-[#FFD65A] " />{" "}
-          <div className=" absolute bottom-[-100px] left-[15%] w-[280px] h-[280px] rounded-full border-[36px] border-[#69B7E6] " />{" "}
+          <div className=" absolute -top-17.5 -right-15 w-60 h-60 rounded-full bg-[#FFD65A] " />{" "}
+          <div className=" absolute -bottom-25 left-[15%] w-70 h-70 rounded-full border-36 border-[#69B7E6] " />{" "}
           {/* CONTENT */}{" "}
           <div className=" relative z-10 max-w-3xl ">
             {" "}
@@ -137,7 +137,7 @@ function FormCategoria() {
                 name="nome"
                 value={categoria.nome}
                 onChange={atualizarEstado}
-                className=" w-full bg-[#F7F4EF] border-0 rounded-[24px] px-6 py-5 text-2xl font-bold text-[#111111] placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-[#69B7E6] transition-all "
+                className=" w-full bg-[#F7F4EF] border-0 rounded-3xl px-6 py-5 text-2xl font-bold text-[#111111] placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-[#69B7E6] transition-all "
               />{" "}
             </div>{" "}
             {/* INPUT DESCRIÇÃO */}{" "}
@@ -153,7 +153,7 @@ function FormCategoria() {
                 value={categoria.descricao}
                 onChange={atualizarEstado}
                 rows={6}
-                className=" w-full resize-none bg-[#F7F4EF] border-0 rounded-[24px] px-6 py-5 text-lg text-[#111111] placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-[#69B7E6] transition-all "
+                className=" w-full resize-none bg-[#F7F4EF] border-0 rounded-3xl px-6 py-5 text-lg text-[#111111] placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-[#69B7E6] transition-all "
               />{" "}
             </div>{" "}
           </div>{" "}
@@ -161,8 +161,8 @@ function FormCategoria() {
           <div className=" relative bg-[#69B7E6] p-8 md:p-12 flex flex-col justify-between overflow-hidden ">
             {" "}
             {/* FORMAS */}{" "}
-            <div className=" absolute top-[-80px] right-[-80px] w-[240px] h-[240px] rounded-full bg-[#FFD65A] " />{" "}
-            <div className=" absolute bottom-[-70px] left-[-70px] w-[220px] h-[220px] rounded-full border-[30px] border-white/30 " />{" "}
+            <div className=" absolute -top-20 -right-20 w-60 h-60 rounded-full bg-[#FFD65A] " />{" "}
+            <div className=" absolute -bottom-17.5 -left-17.5 w-55 h-55 rounded-full border-30 border-white/30 " />{" "}
             {/* TEXTO */}{" "}
             <div className="relative z-10">
               {" "}
@@ -178,7 +178,7 @@ function FormCategoria() {
             {/* BUTTON */}{" "}
             <button
               type="submit"
-              className=" relative z-10 bg-[#111111] hover:bg-black text-white rounded-[24px] py-5 text-lg font-black transition-all hover:scale-[1.02] "
+              className=" relative z-10 bg-[#111111] hover:bg-black text-white rounded-3xl py-5 text-lg font-black transition-all hover:scale-[1.02] "
             >
               {" "}
               {id !== undefined

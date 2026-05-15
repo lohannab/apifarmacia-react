@@ -5,11 +5,11 @@ export function ProjetoEducacional() {
         
       <div className=" max-w-7xl mx-auto ">
           
-        <div className=" relative overflow-hidden rounded-[32px] bg-white border border-slate-200 px-8 py-10 md:px-12 md:py-12 flex flex-col md:flex-row md:items-center md:justify-between gap-8 ">
+        <div className=" relative overflow-hidden rounded-4xl bg-white border border-slate-200 px-8 py-10 md:px-12 md:py-12 flex flex-col md:flex-row md:items-center md:justify-between gap-8 ">
             
           {/* FORMAS */}  
-          <div className=" absolute top-[-60px] right-[-60px] w-[180px] h-[180px] rounded-full bg-[#FFD65A]/40 " />  
-          <div className=" absolute bottom-[-80px] left-[20%] w-[220px] h-[220px] rounded-full border-[28px] border-[#69B7E6]/20 " />  
+          <div className=" absolute -top-15 -right-15 w-45 h-45 rounded-full bg-[#FFD65A]/40 " />  
+          <div className=" absolute -bottom-20 left-[20%] w-55 h-55 rounded-full border-28 border-[#69B7E6]/20 " />  
           {/* CONTEÚDO */}  
           <div className=" relative z-10 flex items-start gap-5 max-w-3xl ">
             

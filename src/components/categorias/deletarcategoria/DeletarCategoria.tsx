@@ -40,10 +40,10 @@ function DeletarCategoria() {
   }
   return (
     <section className=" min-h-screen bg-[#F7F4EF] px-6 py-26 md:px-10 flex items-center justify-center ">
-      <div className=" relative overflow-hidden w-full max-w-3xl rounded-[32px] bg-[#F36C4F] p-8 md:p-14 ">
+      <div className=" relative overflow-hidden w-full max-w-3xl rounded-4xl bg-[#F36C4F] p-8 md:p-14 ">
         {/* FORMAS */}
-        <div className=" absolute top-[-70px] right-[-60px] w-[240px] h-[240px] rounded-full bg-[#FFD65A] " />
-        <div className=" absolute bottom-[-90px] left-[-60px] w-[220px] h-[220px] rounded-full border-[30px] border-white/30 " />
+        <div className=" absolute -top-17.5 -right-15 w-60 h-60 rounded-full bg-[#FFD65A] " />
+        <div className=" absolute -bottom-22.5 -left-15 w-55 h-55 rounded-full border-30 border-white/30 " />
         {/* CONTENT */}
         <div className=" relative z-10 flex flex-col gap-10 ">
           {/* TEXT */}
@@ -62,13 +62,13 @@ function DeletarCategoria() {
           <div className=" flex flex-col md:flex-row gap-4 ">
             <button
               onClick={deletarCategoria}
-              className=" flex-1 bg-[#111111] hover:bg-black text-white py-5 rounded-[24px] text-lg font-black transition-all hover:scale-[1.02] "
+              className=" flex-1 bg-[#111111] hover:bg-black text-white py-5 rounded-3xl text-lg font-black transition-all hover:scale-[1.02] "
             >
               Sim, deletar
             </button>
             <button
               onClick={() => navigate("/categorias")}
-              className=" flex-1 bg-white/70 backdrop-blur border border-white/40 hover:bg-white text-[#111111] py-5 rounded-[24px] text-lg font-black transition-all "
+              className=" flex-1 bg-white/70 backdrop-blur border border-white/40 hover:bg-white text-[#111111] py-5 rounded-3xl text-lg font-black transition-all "
             >
               Cancelar
             </button>

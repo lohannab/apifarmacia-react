@@ -14,7 +14,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
            
           Categoria #{categoria.id} 
         </span> 
-        <h2 className=" text-4xl font-black leading-tight tracking-tight text-[#111111] mb-4 break-words ">
+        <h2 className=" text-4xl font-black leading-tight tracking-tight text-[#111111] mb-4 wrap-break-word ">
            
           {categoria.nome} 
         </h2> 
