@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# 💊 Pharma Cia.
+Projeto educacional desenvolvido para gerenciamento de categorias farmacêuticas durante a formação Full Stack JavaScript da Generation Brasil.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# ✨ Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O Pharma Cia foi desenvolvidoxperiência moderna, intuitiva e visualmente diferenciada para sistemas internos de gestão.
 
-## React Compiler
+A proposta do projeto foi transformar uma aplicação CRUD tradicional em uma interface mais sofisticada, fluida e agradável visualmente, utilizando conceitos de UI contemporânea, formas orgânicas, glassmorphism e uma identidade inspirada em health-techs modernas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🧩 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* ✅ Cadastro de categorias
+* ✅ Listagem de categorias
+* ✅ Atualização de categorias
+* ✅ Exclusão de categorias
+* ✅ Interface responsiva
+* ✅ Toasts personalizados
+* ✅ Navegação SPA com React Router
+* ✅ Layout moderno e interativo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 🛠️ Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Frontend
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* React
+* TypeScript
+* Vite
+* TailwindCSS
+* React Router DOM
+* React Toastify
+* Lucide React
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Backend
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Node.js
+* Express
+* API REST
+
+---
+
+# 🎨 Design
+
+O projeto utiliza:
+
+* Formas orgânicas
+* Glassmorphism
+* Paleta vibrante e moderna
+* Componentização
+* Layout responsivo
+* Microinterações
+
+---
+
+# 📚 Objetivo Educacional
+
+Este projeto foi desenvolvido exclusivamente para fins educacionais como parte do bootcamp de JavaScript Full Stack da Generation Brasil.
+
+O objetivo principal foi praticar:
+
+* Desenvolvimento Full Stack
+* Integração Frontend + Backend
+* Consumo de APIs REST
+* Estruturação de componentes
+* Estilização moderna com TailwindCSS
+* Organização de código em React
+
+---
+
+# 🚀 Deploy
+
+Frontend hospedado na Vercel.
+
+---
+
+# 👩‍💻 Desenvolvido por
+
+Lohanna Barbosa
+
+### Portfolio
+
+[https://lohannab.github.io/portfolio/](https://lohannab.github.io/portfolio/)
+
+---
+
+# 📸 Preview
+
+Interface inspirada em sistemas modernos de health-tech e plataformas corporativas minimalistas.
